@@ -1,27 +1,26 @@
 # React + TypeScript + Vite
+``````
+Create a react app, to add elements in a list, you should use a button to add and anothe to erase an element. Create SEO, testing.
+``````
+Create project:
+- npm create vite@latest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- npm install
 
-Currently, two official plugins are available:
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create test:
 
-## Expanding the ESLint configuration
+- npm install vitest happy-dom -D
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Install Library
+React Testing Library ( first test end-to-end, user-event library needed)
 
-- Configure the top-level `parserOptions` property like this:
+- npm install -D @testing-library/react
+- npm install -D @testing-library/user-event 
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- npm run build
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+https://app.netlify.com/drop
+
+https://aesthetic-chaja-ddbc03.netlify.app/
